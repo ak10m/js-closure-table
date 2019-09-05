@@ -1,0 +1,24 @@
+{
+  "name": "js-closure-table",
+  "description": "Closure Table on javascript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "ak10m <akio.morimoto@airits.jp>",
+  "homepage": "https://github.com/ak10m/js-closure-table#readme",
+  "bugs": {
+    "url": "https://github.com/ak10m/js-closure-table/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak10m/js-closure-table.git"
+  },
+  "keywords": [
+    "closure table",
+    "tree",
+    "hierarchy"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
