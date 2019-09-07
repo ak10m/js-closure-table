@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+
+    "strict": true,
+    "declaration": true,
+    "outDir": "./lib",
+
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
