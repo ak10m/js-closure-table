@@ -6,3 +6,10 @@ script:
 - npm run lint
 - npm run test
 - npm run build
+deploy:
+  provider: npm
+  email: akio.morimoto@airits.jp
+  on:
+    tags: true
+  api_key:
+    secure: bjiJFOtFLDF6swRZt7rar0uLY19s+sq+r6aIO9n0VmF/5yyBm8amEypSfYR63V/84PJ2uFlmGND1qr1l4ikJn5e0VXr47SyR8Xml9iUfL6+mH4XVmDRiEZd6UZ+9ZkdfxWGNq6yzQhrUmNuw7/7AKTyr9SojOQY0GHFaZX8pOEAd8j2YaF5OALOjnETdm2E3+eSsdf3Kxqrt1E2Btp07n9FEDWonEFzQCXDK5fM5TsaimmhuDhYXSCtKOXKxeAAgk49TEbzKTmKWGXByq3wfE+DxERDvhg1V8LnV53h8UrXNkJi+HkwM8Fe2B5zmXNasPfN+SKuEMHEYwmtHebqWv9zGqeH6NtGpVOL9yg++AENKWoIg1iiCs0pMx250woyD8fiYq7hD9SH1ujo9ANLnYbEl11EKdVDDZgE2iLH/TGbO7B6NjpR7NiGb14NfMg1HfC7UE9gRJBC1uZ8/WltScy/RkDfkJa7qVEXfRv4YQGCXiK8xYHx6+SB9MAAWQZki57F0Miy8c8WFWM5tJJmY/w+9zm0zd7Yw9rUloSXxDD52EhurCbeBIOJZQvw0+0825fzMOOIutvoPZJiRLWiXlu4rLMt3un2WXf+WlvZr7Snkb2ffuyGjbgbxqYptneMWCEe31JNakcUugomrcXksS0MSKjIssWy5NjbH/Z4hMFw=
